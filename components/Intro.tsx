@@ -55,7 +55,7 @@ const Intro = () => {
           href={"#contact"}
           className="group flex justify-center items-center gap-2 bg-gray-950 px-5 py-3 rounded-full text-white dark:border-none"
         >
-          <div>Contact me her</div>
+          <div>Contact me here</div>
           <div className="text-gray-500 transition-all group-hover:translate-x-1">
             <FaLongArrowAltRight />
           </div>
