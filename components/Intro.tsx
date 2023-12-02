@@ -34,7 +34,7 @@ const Intro = () => {
     
       initial={{ opacity: 0, y: 100 }}
       animate={{ opacity: 1, y: 0 }}
-      className="flex justify-center flex-col items-center gap-5 mt-36"
+      className="flex justify-center flex-col items-center gap-5 mt-36 mb-24"
     >
       <div  className="img relative">
         <Image
