@@ -34,13 +34,15 @@ const { scrollYProgress } = useScroll({
 const scaleProgress = useTransform(scrollYProgress, [0, 1], [0.8, 1]);
   const opacityProgress = useTransform(scrollYProgress, [0, 1], [0.6, 1]);
   return (
-    <motion.div key={project.title} 
+    <motion.a key={project.title} 
     ref={ref2}
     style={{
       scale: scaleProgress,
       opacity: opacityProgress,
     }}
-    className="overflow-hidden flex even:flex-row-reverse bg-gray-100 mb-8 gap-3 border border-1 border-gray-300 rounded-3xl max-w-[600px] group hover:bg-gray-200 transition-all mx-3 dark:bg-[#292f3c] dark:hover:bg-gray-800 dark:border-none">
+    href={project.link}
+    target="_blank"
+    className="overflow-hidden cursor-pointer flex even:flex-row-reverse bg-gray-100 mb-8 gap-3 border border-1 border-gray-300 rounded-3xl max-w-[600px] group hover:bg-gray-200 transition-all mx-3 dark:bg-[#292f3c] dark:hover:bg-gray-800 dark:border-none">
       <div ref={ref} className="text p-5 text-left sm:basis-1/2">
         <div className="title font-bold text-2xl mb-2 dark:text-gray-50">{project.title}</div>
         <div className="description text-gray-500 dark:text-gray-400 mb-8">{project.description}</div>
@@ -57,7 +59,7 @@ const scaleProgress = useTransform(scrollYProgress, [0, 1], [0.8, 1]);
         transition-all group-hover:-rotate-2'/>
         </div>
       </div>
-    </motion.div>
+    </motion.a>
   )
 }
 

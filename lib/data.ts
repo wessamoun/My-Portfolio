@@ -40,6 +40,7 @@ export const projectsData = [
       "A simple to-do app working with drag and drop and local storage with fetch new quote every time open the app",
     tags: ["React", "Next.js", "TypeScript", "Tailwind"],
     imageUrl: todoapp,
+    link: "https://dnd-to-do-app-next-js.vercel.app/"
   },
   {
     title: "Concrete Exercises",
@@ -47,6 +48,7 @@ export const projectsData = [
       "Fitness Exercises App with functionality to choose exercise categories and specific muscle groups with pagination and every exercise details with videos ",
     tags: ["React", "Tailwind", "Redux", "MUI"],
     imageUrl: exercise,
+    link: "https://concrete-exercises-react-material-ui-redux.vercel.app/"
   },
   {
     title: "Facebooky",
@@ -54,6 +56,7 @@ export const projectsData = [
       "A modern social app with a stunning UI with a native mobile feel, and amazing performance using React JS, Appwrite, and React Query.",
     tags: ["React", "Appwrite", "React Query", "Tailwind",],
     imageUrl: facebooky,
+    link : "https://main--dapper-sundae-95f743.netlify.app/"
   },
   {
     title: "Concrete Store",
@@ -61,6 +64,7 @@ export const projectsData = [
       "eCommerce App with functionality to choose products categories and sort them with infinite scroll and every product details page and more",
     tags: ["React", "Tailwind", "Redux"],
     imageUrl: eCommerce,
+    link: "https://glittery-faun-6b1654.netlify.app/"
   },
 ] as const;
 
