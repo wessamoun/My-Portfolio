@@ -3,6 +3,7 @@ import exercise from "../public/exercise.jpg";
 import facebooky from "../public/facebooky.jpg";
 import todoapp from "../public/todoapp.jpg";
 import eCommerce from "../public/eCommerce.jpg";
+import netflix from "../public/netflix.jpg";
 
 
 export const links = [
@@ -34,6 +35,14 @@ export const links = [
 
 
 export const projectsData = [
+  {
+    title: "Netflix Animation",
+    description:
+      "A Netflix clone has information on many new animation movies with Firebase authentication",
+    tags: ["React", "Next.js", "TypeScript", "Tailwind", "Framer Motion", "TMDB API"],
+    imageUrl: netflix,
+    link: "https://netflix-animation-chi.vercel.app"
+  },
   {
     title: "DnD To Do App",
     description:
